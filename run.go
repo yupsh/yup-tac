@@ -52,7 +52,11 @@ func newApp(version string, stdin io.Reader, stdout io.Writer, fs afero.Fs) *cli
 		// os.Exit, so the exit code stays testable.
 		ExitErrHandler: func(context.Context, *cli.Command, error) {},
 		Flags: []cli.Flag{
-			&cli.StringFlag{Name: flagSeparator, Aliases: []string{"s"}, Usage: "use STRING as the record separator instead of newline"},
+			&cli.StringFlag{
+				Name:    flagSeparator,
+				Aliases: []string{"s"},
+				Usage:   "use STRING as the record separator instead of newline",
+			},
 		},
 		Action: action(stdin, stdout, fs),
 	}
