@@ -1,20 +1,9 @@
-# yup-tac
+[![actions](https://github.com/yupsh/yup-tac/actions/workflows/actions.yml/badge.svg)](https://github.com/yupsh/yup-tac/actions/workflows/actions.yml)
+[![ci](https://github.com/yupsh/yup-tac/actions/workflows/ci.yml/badge.svg)](https://github.com/yupsh/yup-tac/actions/workflows/ci.yml)
+[![dockerfiles](https://github.com/yupsh/yup-tac/actions/workflows/dockerfiles.yml/badge.svg)](https://github.com/yupsh/yup-tac/actions/workflows/dockerfiles.yml)
+[![docs](https://github.com/yupsh/yup-tac/actions/workflows/docs.yml/badge.svg)](https://github.com/yupsh/yup-tac/actions/workflows/docs.yml)
+[![go](https://github.com/yupsh/yup-tac/actions/workflows/go.yml/badge.svg)](https://github.com/yupsh/yup-tac/actions/workflows/go.yml)
+[![release](https://github.com/yupsh/yup-tac/actions/workflows/release.yml/badge.svg)](https://github.com/yupsh/yup-tac/actions/workflows/release.yml)
+[![shell](https://github.com/yupsh/yup-tac/actions/workflows/shell.yml/badge.svg)](https://github.com/yupsh/yup-tac/actions/workflows/shell.yml)
 
-```
-NAME:
-   tac - concatenate and print files in reverse
-
-USAGE:
-   tac [OPTIONS] [FILE...]
-
-   Write each FILE to standard output, last line first.
-   With no FILE, or when FILE is -, read standard input.
-
-VERSION:
-   dev
-
-GLOBAL OPTIONS:
-   --separator string, -s string  use STRING as the record separator instead of newline
-   --help, -h                     show help
-   --version                      print version information and exit
-```
+[docs](https://yupsh.github.io/docs.repl/)
