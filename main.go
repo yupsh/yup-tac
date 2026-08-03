@@ -41,6 +41,8 @@ func flags() []urf.Flag {
 			Name:    flagSeparator,
 			Aliases: []string{"s"},
 			Usage:   "use STRING as the record separator instead of newline",
+			Value:   "",
+			Sources: urf.EnvVars("YUP_TAC_SEPARATOR"),
 		},
 	}
 }
